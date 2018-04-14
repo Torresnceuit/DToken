@@ -1,5 +1,5 @@
-var DToken = artifacts.require("./DToken.sol");
+var DsToken = artifacts.require("./DsToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(DToken);
+  deployer.deploy(DsToken, 1000000);
 };

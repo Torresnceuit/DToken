@@ -1,5 +1,5 @@
 {
-  "contractName": "DToken",
+  "contractName": "DsToken",
   "abi": [
     {
       "constant": true,
@@ -88,16 +88,16 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040526040805190810160405280600681526020017f44546f6b656e00000000000000000000000000000000000000000000000000008152506000908051906020019061004f929190610160565b506040805190810160405280600281526020017f44530000000000000000000000000000000000000000000000000000000000008152506001908051906020019061009b929190610160565b506040805190810160405280600f81526020017f445320546f6b656e2076312e302e300000000000000000000000000000000000815250600290805190602001906100e7929190610160565b5034156100f357600080fd5b6040516020806106ca833981016040528080519060200190919050508060038190555080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050610205565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106101a157805160ff19168380011785556101cf565b828001600101855582156101cf579182015b828111156101ce5782518255916020019190600101906101b3565b5b5090506101dc91906101e0565b5090565b61020291905b808211156101fe5760008160009055506001016101e6565b5090565b90565b6104b6806102146000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461007257806318160ddd146101005780635a3b7e421461012957806370a08231146101b757806395d89b4114610204575b600080fd5b341561007d57600080fd5b610085610292565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100c55780820151818401526020810190506100aa565b50505050905090810190601f1680156100f25780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561010b57600080fd5b610113610330565b6040518082815260200191505060405180910390f35b341561013457600080fd5b61013c610336565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017c578082015181840152602081019050610161565b50505050905090810190601f1680156101a95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101c257600080fd5b6101ee600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506103d4565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b6102176103ec565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561025757808201518184015260208101905061023c565b50505050905090810190601f1680156102845780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103285780601f106102fd57610100808354040283529160200191610328565b820191906000526020600020905b81548152906001019060200180831161030b57829003601f168201915b505050505081565b60035481565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103cc5780601f106103a1576101008083540402835291602001916103cc565b820191906000526020600020905b8154815290600101906020018083116103af57829003601f168201915b505050505081565b60046020528060005260406000206000915090505481565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104825780601f1061045757610100808354040283529160200191610482565b820191906000526020600020905b81548152906001019060200180831161046557829003601f168201915b5050505050815600a165627a7a723058203b9c5730d9a2c09cb42b16f7ec06315f4ac0cd5813ca8bb283d1e60e80ac016d0029",
-  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461007257806318160ddd146101005780635a3b7e421461012957806370a08231146101b757806395d89b4114610204575b600080fd5b341561007d57600080fd5b610085610292565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100c55780820151818401526020810190506100aa565b50505050905090810190601f1680156100f25780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561010b57600080fd5b610113610330565b6040518082815260200191505060405180910390f35b341561013457600080fd5b61013c610336565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017c578082015181840152602081019050610161565b50505050905090810190601f1680156101a95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101c257600080fd5b6101ee600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506103d4565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b6102176103ec565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561025757808201518184015260208101905061023c565b50505050905090810190601f1680156102845780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103285780601f106102fd57610100808354040283529160200191610328565b820191906000526020600020905b81548152906001019060200180831161030b57829003601f168201915b505050505081565b60035481565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103cc5780601f106103a1576101008083540402835291602001916103cc565b820191906000526020600020905b8154815290600101906020018083116103af57829003601f168201915b505050505081565b60046020528060005260406000206000915090505481565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104825780601f1061045757610100808354040283529160200191610482565b820191906000526020600020905b81548152906001019060200180831161046557829003601f168201915b5050505050815600a165627a7a723058203b9c5730d9a2c09cb42b16f7ec06315f4ac0cd5813ca8bb283d1e60e80ac016d0029",
-  "sourceMap": "84:479:0:-;;;188:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;221:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;252:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;425:129;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;492:14;478:11;:28;;;;535:14;511:9;:21;521:10;511:21;;;;;;;;;;;;;;;:38;;;;425:129;84:479;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "84:479:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;188:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;188:29:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;298:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;252:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;252:42:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;373:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;221:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;221:27:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;188:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;298:26::-;;;;:::o;252:42::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;373:45::-;;;;;;;;;;;;;;;;;:::o;221:27::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.21;\r\n\r\n/**\r\n * The DToken contract does this and that...\r\n */\r\ncontract DToken {\r\n\t/**\r\n\t * set the total number of tokens\r\n\t * get the total number of tokens\r\n\t */\r\n\tstring public name = \"DToken\";\r\n\tstring public symbol = \"DS\";\r\n\tstring public standard = \"DS Token v1.0.0\";\r\n\tuint256 public totalSupply;\r\n\t// map the address to the value of balance\r\n\tmapping (address => uint256) public balanceOf;\r\n\t\r\n\tfunction DToken (uint256 _initialSupply) public {\r\n\t\ttotalSupply = _initialSupply;\r\n\t\tbalanceOf[msg.sender] = _initialSupply;\r\n\t}\t\r\n\r\n\t\r\n}\r\n",
-  "sourcePath": "D:\\Blockchain\\DToken\\contracts\\DToken.sol",
+  "bytecode": "0x60606040526040805190810160405280600881526020017f447320546f6b656e0000000000000000000000000000000000000000000000008152506000908051906020019061004f929190610160565b506040805190810160405280600281526020017f44530000000000000000000000000000000000000000000000000000000000008152506001908051906020019061009b929190610160565b506040805190810160405280600f81526020017f447320546f6b656e2076312e302e300000000000000000000000000000000000815250600290805190602001906100e7929190610160565b5034156100f357600080fd5b6040516020806106ca833981016040528080519060200190919050508060038190555080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050610205565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106101a157805160ff19168380011785556101cf565b828001600101855582156101cf579182015b828111156101ce5782518255916020019190600101906101b3565b5b5090506101dc91906101e0565b5090565b61020291905b808211156101fe5760008160009055506001016101e6565b5090565b90565b6104b6806102146000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461007257806318160ddd146101005780635a3b7e421461012957806370a08231146101b757806395d89b4114610204575b600080fd5b341561007d57600080fd5b610085610292565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100c55780820151818401526020810190506100aa565b50505050905090810190601f1680156100f25780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561010b57600080fd5b610113610330565b6040518082815260200191505060405180910390f35b341561013457600080fd5b61013c610336565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017c578082015181840152602081019050610161565b50505050905090810190601f1680156101a95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101c257600080fd5b6101ee600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506103d4565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b6102176103ec565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561025757808201518184015260208101905061023c565b50505050905090810190601f1680156102845780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103285780601f106102fd57610100808354040283529160200191610328565b820191906000526020600020905b81548152906001019060200180831161030b57829003601f168201915b505050505081565b60035481565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103cc5780601f106103a1576101008083540402835291602001916103cc565b820191906000526020600020905b8154815290600101906020018083116103af57829003601f168201915b505050505081565b60046020528060005260406000206000915090505481565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104825780601f1061045757610100808354040283529160200191610482565b820191906000526020600020905b81548152906001019060200180831161046557829003601f168201915b5050505050815600a165627a7a723058204a13702a3e421b232c1a56a969af67b13519201a19f2671cd09db526e149ff4e0029",
+  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461007257806318160ddd146101005780635a3b7e421461012957806370a08231146101b757806395d89b4114610204575b600080fd5b341561007d57600080fd5b610085610292565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100c55780820151818401526020810190506100aa565b50505050905090810190601f1680156100f25780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561010b57600080fd5b610113610330565b6040518082815260200191505060405180910390f35b341561013457600080fd5b61013c610336565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017c578082015181840152602081019050610161565b50505050905090810190601f1680156101a95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101c257600080fd5b6101ee600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506103d4565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b6102176103ec565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561025757808201518184015260208101905061023c565b50505050905090810190601f1680156102845780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103285780601f106102fd57610100808354040283529160200191610328565b820191906000526020600020905b81548152906001019060200180831161030b57829003601f168201915b505050505081565b60035481565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103cc5780601f106103a1576101008083540402835291602001916103cc565b820191906000526020600020905b8154815290600101906020018083116103af57829003601f168201915b505050505081565b60046020528060005260406000206000915090505481565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104825780601f1061045757610100808354040283529160200191610482565b820191906000526020600020905b81548152906001019060200180831161046557829003601f168201915b5050505050815600a165627a7a723058204a13702a3e421b232c1a56a969af67b13519201a19f2671cd09db526e149ff4e0029",
+  "sourceMap": "84:483:0:-;;;189:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;224:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;255:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;428:130;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;496:14;482:11;:28;;;;539:14;515:9;:21;525:10;515:21;;;;;;;;;;;;;;;:38;;;;428:130;84:483;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "84:483:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;189:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;189:31:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;301:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;255:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;255:42:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;376:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;224:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;224:27:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;189:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;301:26::-;;;;:::o;255:42::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;376:45::-;;;;;;;;;;;;;;;;;:::o;224:27::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.21;\r\n\r\n/**\r\n * The DToken contract does this and that...\r\n */\r\ncontract DsToken {\r\n\t/**\r\n\t * set the total number of tokens\r\n\t * get the total number of tokens\r\n\t */\r\n\tstring public name = \"Ds Token\";\r\n\tstring public symbol = \"DS\";\r\n\tstring public standard = \"Ds Token v1.0.0\";\r\n\tuint256 public totalSupply;\r\n\t// map the address to the value of balance\r\n\tmapping (address => uint256) public balanceOf;\r\n\t\r\n\tfunction DsToken (uint256 _initialSupply) public {\r\n\t\ttotalSupply = _initialSupply;\r\n\t\tbalanceOf[msg.sender] = _initialSupply;\r\n\t}\t\r\n\r\n\t\r\n}\r\n",
+  "sourcePath": "D:\\Blockchain\\DToken\\contracts\\DsToken.sol",
   "ast": {
-    "absolutePath": "/D/Blockchain/DToken/contracts/DToken.sol",
+    "absolutePath": "/D/Blockchain/DToken/contracts/DsToken.sol",
     "exportedSymbols": {
-      "DToken": [
+      "DsToken": [
         34
       ]
     },
@@ -125,7 +125,7 @@
         "linearizedBaseContracts": [
           34
         ],
-        "name": "DToken",
+        "name": "DsToken",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -134,7 +134,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "188:29:0",
+            "src": "189:31:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -145,7 +145,7 @@
               "id": 2,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "188:6:0",
+              "src": "189:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -153,7 +153,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "44546f6b656e",
+              "hexValue": "447320546f6b656e",
               "id": 3,
               "isConstant": false,
               "isLValue": false,
@@ -161,13 +161,13 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "209:8:0",
+              "src": "210:10:0",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_5dd35b951b954dd0b3cff35d078e26925e7c495e610129e3535bfb1e92783a4a",
-                "typeString": "literal_string \"DToken\""
+                "typeIdentifier": "t_stringliteral_9235bbd0dad9c8791a8d4756cf2485fe39fff5ab7dadf03b9997bfbdbaac2f2a",
+                "typeString": "literal_string \"Ds Token\""
               },
-              "value": "DToken"
+              "value": "Ds Token"
             },
             "visibility": "public"
           },
@@ -177,7 +177,7 @@
             "name": "symbol",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "221:27:0",
+            "src": "224:27:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -188,7 +188,7 @@
               "id": 5,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "221:6:0",
+              "src": "224:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -204,7 +204,7 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "244:4:0",
+              "src": "247:4:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_a3f70658d5793ca34144e54a56730f95acf3ed66e4b49ba0ae4692ed59c885df",
@@ -220,7 +220,7 @@
             "name": "standard",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "252:42:0",
+            "src": "255:42:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -231,7 +231,7 @@
               "id": 8,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "252:6:0",
+              "src": "255:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -239,7 +239,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "445320546f6b656e2076312e302e30",
+              "hexValue": "447320546f6b656e2076312e302e30",
               "id": 9,
               "isConstant": false,
               "isLValue": false,
@@ -247,13 +247,13 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "277:17:0",
+              "src": "280:17:0",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_4d23dfb2dd05236866506637f301b728f978e55581d212bbe2afc4caeb3ea64a",
-                "typeString": "literal_string \"DS Token v1.0.0\""
+                "typeIdentifier": "t_stringliteral_5e28fb7d073e055b3ebfc5f5ed27949ebfb7c7d35fd992bd02e8153bb2a373b0",
+                "typeString": "literal_string \"Ds Token v1.0.0\""
               },
-              "value": "DS Token v1.0.0"
+              "value": "Ds Token v1.0.0"
             },
             "visibility": "public"
           },
@@ -263,7 +263,7 @@
             "name": "totalSupply",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "298:26:0",
+            "src": "301:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -274,7 +274,7 @@
               "id": 11,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "298:7:0",
+              "src": "301:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -289,7 +289,7 @@
             "name": "balanceOf",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "373:45:0",
+            "src": "376:45:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -302,14 +302,14 @@
                 "id": 13,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "382:7:0",
+                "src": "385:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "373:28:0",
+              "src": "376:28:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                 "typeString": "mapping(address => uint256)"
@@ -318,7 +318,7 @@
                 "id": 14,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "393:7:0",
+                "src": "396:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -332,7 +332,7 @@
             "body": {
               "id": 32,
               "nodeType": "Block",
-              "src": "473:81:0",
+              "src": "477:81:0",
               "statements": [
                 {
                   "expression": {
@@ -349,7 +349,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 12,
-                      "src": "478:11:0",
+                      "src": "482:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -364,13 +364,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 18,
-                      "src": "492:14:0",
+                      "src": "496:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "478:28:0",
+                    "src": "482:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -378,7 +378,7 @@
                   },
                   "id": 24,
                   "nodeType": "ExpressionStatement",
-                  "src": "478:28:0"
+                  "src": "482:28:0"
                 },
                 {
                   "expression": {
@@ -397,7 +397,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 16,
-                        "src": "511:9:0",
+                        "src": "515:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
@@ -413,7 +413,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 47,
-                          "src": "521:3:0",
+                          "src": "525:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -427,7 +427,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "521:10:0",
+                        "src": "525:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -438,7 +438,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "511:21:0",
+                      "src": "515:21:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -453,13 +453,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 18,
-                      "src": "535:14:0",
+                      "src": "539:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "511:38:0",
+                    "src": "515:38:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -467,7 +467,7 @@
                   },
                   "id": 31,
                   "nodeType": "ExpressionStatement",
-                  "src": "511:38:0"
+                  "src": "515:38:0"
                 }
               ]
             },
@@ -477,7 +477,7 @@
             "isConstructor": true,
             "isDeclaredConst": false,
             "modifiers": [],
-            "name": "DToken",
+            "name": "DsToken",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 19,
@@ -489,7 +489,7 @@
                   "name": "_initialSupply",
                   "nodeType": "VariableDeclaration",
                   "scope": 33,
-                  "src": "442:22:0",
+                  "src": "446:22:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -500,7 +500,7 @@
                     "id": 17,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "442:7:0",
+                    "src": "446:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -510,32 +510,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "441:24:0"
+              "src": "445:24:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 20,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "473:0:0"
+              "src": "477:0:0"
             },
             "scope": 34,
-            "src": "425:129:0",
+            "src": "428:130:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 35,
-        "src": "84:479:0"
+        "src": "84:483:0"
       }
     ],
-    "src": "0:565:0"
+    "src": "0:569:0"
   },
   "legacyAST": {
-    "absolutePath": "/D/Blockchain/DToken/contracts/DToken.sol",
+    "absolutePath": "/D/Blockchain/DToken/contracts/DsToken.sol",
     "exportedSymbols": {
-      "DToken": [
+      "DsToken": [
         34
       ]
     },
@@ -563,7 +563,7 @@
         "linearizedBaseContracts": [
           34
         ],
-        "name": "DToken",
+        "name": "DsToken",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -572,7 +572,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "188:29:0",
+            "src": "189:31:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -583,7 +583,7 @@
               "id": 2,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "188:6:0",
+              "src": "189:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -591,7 +591,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "44546f6b656e",
+              "hexValue": "447320546f6b656e",
               "id": 3,
               "isConstant": false,
               "isLValue": false,
@@ -599,13 +599,13 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "209:8:0",
+              "src": "210:10:0",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_5dd35b951b954dd0b3cff35d078e26925e7c495e610129e3535bfb1e92783a4a",
-                "typeString": "literal_string \"DToken\""
+                "typeIdentifier": "t_stringliteral_9235bbd0dad9c8791a8d4756cf2485fe39fff5ab7dadf03b9997bfbdbaac2f2a",
+                "typeString": "literal_string \"Ds Token\""
               },
-              "value": "DToken"
+              "value": "Ds Token"
             },
             "visibility": "public"
           },
@@ -615,7 +615,7 @@
             "name": "symbol",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "221:27:0",
+            "src": "224:27:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -626,7 +626,7 @@
               "id": 5,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "221:6:0",
+              "src": "224:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -642,7 +642,7 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "244:4:0",
+              "src": "247:4:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_a3f70658d5793ca34144e54a56730f95acf3ed66e4b49ba0ae4692ed59c885df",
@@ -658,7 +658,7 @@
             "name": "standard",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "252:42:0",
+            "src": "255:42:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -669,7 +669,7 @@
               "id": 8,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "252:6:0",
+              "src": "255:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -677,7 +677,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "445320546f6b656e2076312e302e30",
+              "hexValue": "447320546f6b656e2076312e302e30",
               "id": 9,
               "isConstant": false,
               "isLValue": false,
@@ -685,13 +685,13 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "277:17:0",
+              "src": "280:17:0",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_4d23dfb2dd05236866506637f301b728f978e55581d212bbe2afc4caeb3ea64a",
-                "typeString": "literal_string \"DS Token v1.0.0\""
+                "typeIdentifier": "t_stringliteral_5e28fb7d073e055b3ebfc5f5ed27949ebfb7c7d35fd992bd02e8153bb2a373b0",
+                "typeString": "literal_string \"Ds Token v1.0.0\""
               },
-              "value": "DS Token v1.0.0"
+              "value": "Ds Token v1.0.0"
             },
             "visibility": "public"
           },
@@ -701,7 +701,7 @@
             "name": "totalSupply",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "298:26:0",
+            "src": "301:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -712,7 +712,7 @@
               "id": 11,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "298:7:0",
+              "src": "301:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -727,7 +727,7 @@
             "name": "balanceOf",
             "nodeType": "VariableDeclaration",
             "scope": 34,
-            "src": "373:45:0",
+            "src": "376:45:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -740,14 +740,14 @@
                 "id": 13,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "382:7:0",
+                "src": "385:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "373:28:0",
+              "src": "376:28:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                 "typeString": "mapping(address => uint256)"
@@ -756,7 +756,7 @@
                 "id": 14,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "393:7:0",
+                "src": "396:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -770,7 +770,7 @@
             "body": {
               "id": 32,
               "nodeType": "Block",
-              "src": "473:81:0",
+              "src": "477:81:0",
               "statements": [
                 {
                   "expression": {
@@ -787,7 +787,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 12,
-                      "src": "478:11:0",
+                      "src": "482:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -802,13 +802,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 18,
-                      "src": "492:14:0",
+                      "src": "496:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "478:28:0",
+                    "src": "482:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -816,7 +816,7 @@
                   },
                   "id": 24,
                   "nodeType": "ExpressionStatement",
-                  "src": "478:28:0"
+                  "src": "482:28:0"
                 },
                 {
                   "expression": {
@@ -835,7 +835,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 16,
-                        "src": "511:9:0",
+                        "src": "515:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
@@ -851,7 +851,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 47,
-                          "src": "521:3:0",
+                          "src": "525:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -865,7 +865,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "521:10:0",
+                        "src": "525:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -876,7 +876,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "511:21:0",
+                      "src": "515:21:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -891,13 +891,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 18,
-                      "src": "535:14:0",
+                      "src": "539:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "511:38:0",
+                    "src": "515:38:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -905,7 +905,7 @@
                   },
                   "id": 31,
                   "nodeType": "ExpressionStatement",
-                  "src": "511:38:0"
+                  "src": "515:38:0"
                 }
               ]
             },
@@ -915,7 +915,7 @@
             "isConstructor": true,
             "isDeclaredConst": false,
             "modifiers": [],
-            "name": "DToken",
+            "name": "DsToken",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 19,
@@ -927,7 +927,7 @@
                   "name": "_initialSupply",
                   "nodeType": "VariableDeclaration",
                   "scope": 33,
-                  "src": "442:22:0",
+                  "src": "446:22:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -938,7 +938,7 @@
                     "id": 17,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "442:7:0",
+                    "src": "446:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -948,27 +948,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "441:24:0"
+              "src": "445:24:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 20,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "473:0:0"
+              "src": "477:0:0"
             },
             "scope": 34,
-            "src": "425:129:0",
+            "src": "428:130:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 35,
-        "src": "84:479:0"
+        "src": "84:483:0"
       }
     ],
-    "src": "0:565:0"
+    "src": "0:569:0"
   },
   "compiler": {
     "name": "solc",
@@ -978,10 +978,10 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x9828ea7d2dddf53a891c676efa804958f1b82b0c",
-      "transactionHash": "0xce680cf8206ca7513ef8d073f4ccca24003f89dc04411f84810df5a03f40a303"
+      "address": "0x6ce4e66f83278c4fe8cbeea261dca9dd34f24b43",
+      "transactionHash": "0xa1cce033acb04c2f1c9a11154f5c54e5294799b7024cb4da0f1a147e1e6c5adb"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-14T11:20:32.456Z"
+  "updatedAt": "2018-04-14T11:24:33.724Z"
 }
