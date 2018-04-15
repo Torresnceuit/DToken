@@ -29,7 +29,7 @@ pragma solidity ^0.4.21;
 
 
 	 //Tranfer function
-	 function tranfer (address _to, uint256 _value) public returns(bool success){
+	 function transfer (address _to, uint256 _value) public returns(bool success){
 	 	//Exception if account doesn't have enough 
 	 	require(balanceOf[msg.sender] >= _value);
 	 	//Tranfer balance
